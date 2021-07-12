@@ -65,7 +65,7 @@ mongoose.connect(`mongodb+srv://${process.env.UN}:${process.env.PW}@booksapi.1en
     })
     }).catch(err => {
         console.log('failed');
-        console.log(err);git add 
+        console.log(err);
 });
 
 
