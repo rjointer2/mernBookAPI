@@ -7,7 +7,8 @@
     "start": "node backend/server.js",
     "develop": "concurrently \"cd backend && npm run watch\" \"cd client && npm start\"",
     "install": "cd backend && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
